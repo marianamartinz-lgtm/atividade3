@@ -10,4 +10,15 @@ class PrincipalController extends Controller
     {
         return view('bakery');
     }
+
+    public function sobremesa()
+    {
+        return view('sobremesa');
+    }
+
+    // Nova rota "Sobre Nós"
+    public function sobre()
+    {
+        return view('sobre');
+    }
 }
